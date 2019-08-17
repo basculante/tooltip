@@ -28,3 +28,47 @@ td {
 .icon {
   margin: 5px;
 }
+
+/* skill bar */
+.cell-container {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  height: 30px;
+}
+
+.cell-bar {
+  width: 200px;
+  background-color: #ddd;
+  margin-left: 15%;
+  height: 30px;
+}
+
+.cell-content {
+  width: 15%;
+  float: left;
+  margin-right: 40px;
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+
+  color: white; /* White text color */
+  height: 30px;
+}
+
+/*set how much progress bar */
+.html {
+  width: 20%;
+  background-color: #4caf50;
+}
+.css {
+  width: 90%;
+  background-color: yellow;
+}
+
+.js {
+  width: 50%;
+  background-color: red;
+}
