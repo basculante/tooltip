@@ -12,10 +12,19 @@
 }
 
 .bullets {
-    display: flex;
-    background-color: yellow;
+  display: flex;
 }
 
 .bullets li {
-    cursor: pointer;
+  cursor: pointer;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+.icon {
+  margin: 5px;
 }

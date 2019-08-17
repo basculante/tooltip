@@ -1,11 +1,11 @@
 let setUpToolTip = function() {
   let tooltip = "",
     toolTipDiv = document.querySelector(".div-tooltip"),
-    toolTipElements = Array.from(document.querySelectorAll(".hover-reveal")),
+    toolTipElements = Array.from(document.querySelectorAll(".icon")),
     timer;
 
   let displayToolTip = function(e, obj) {
-    tooltip = obj.dataset.tooltip;
+    tooltip = obj.dataset.tooltipicon;
     toolTipDiv.innerHTML = tooltip;
     toolTipDiv.style.top = e.pageY + "px";
     toolTipDiv.style.left = e.pageX + "px";
@@ -47,7 +47,7 @@ let setUpToolTip = function() {
       let that = this;
       timeout = setTimeout(function() {
         displayToolTip(e, that);
-      }, 400);
+      }, 200);
     });
     elem.addEventListener("mouseleave", function(e) {
       //   toolTipDiv.style.opacity = 0;
