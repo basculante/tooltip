@@ -60,15 +60,12 @@ td {
 
 /*set how much progress bar */
 .html {
-  width: 20%;
   background-color: #4caf50;
 }
 .css {
-  width: 90%;
   background-color: yellow;
 }
 
 .js {
-  width: 50%;
   background-color: red;
 }
